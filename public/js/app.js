@@ -1,5 +1,3 @@
-console.log('client side javascript is loaded');
-
 const addressInput = document.querySelector('input');
 
 const weatherForm = document.querySelector('form');
