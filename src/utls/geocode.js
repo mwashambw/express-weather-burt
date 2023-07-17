@@ -11,7 +11,8 @@ const getPosition = async function (userCity) {
 
     return { lat, lon, city, country };
   } catch (err) {
-    return { error: 'Unable to find the location!' };
+    // return { error: 'Unable to find the location!' };
+    return { error: `${err.message}` };
   }
 };
 
